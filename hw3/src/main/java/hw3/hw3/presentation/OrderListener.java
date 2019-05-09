@@ -107,7 +107,12 @@ public class OrderListener implements ActionListener{
 				}
 				
 				p.setQuantity(p.getQuantity() - quantity);
-				pbl.updateProduct(p);
+				try {
+					pbl.updateProduct(p);
+				}catch(IllegalArgumentException e) {
+					error.setText(e.getMessage());
+					return ;
+				}
 				
 			}
 		}

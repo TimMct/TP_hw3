@@ -18,7 +18,7 @@ public class ProductValidator implements Validator<Product>{
 			throw new IllegalArgumentException("Product with no name!");
 		}else if(t.getPrice() <= 0) {
 			throw new IllegalArgumentException("Product with invalid price!");
-		}else if(t.getQuantity() <= 0) {
+		}else if(t.getQuantity() < 0) {
 			throw new IllegalArgumentException("Product with invalid quantity!");
 		}
 	}

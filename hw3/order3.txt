@@ -1,0 +1,5 @@
+This is the order #3
+
+Client #4 called John Don from London, Str.Fenchurch  with email jo_do@gmail.com having 23 years bought 
+Product #5 named water priced with 1.5 u.m. available in 300 pieces
+Order #3 made by client #4 for product #5 with quantity of 30 pieces

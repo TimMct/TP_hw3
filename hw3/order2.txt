@@ -1,0 +1,5 @@
+This is the order #2
+
+Client #4 called John Don from London, Str.Fenchurch  with email jo_do@gmail.com having 23 years bought 
+Product #6 named test priced with 2.4 u.m. available in 10 pieces
+Order #2 made by client #4 for product #6 with quantity of 9 pieces
